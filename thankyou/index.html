@@ -400,32 +400,21 @@
     }
 
     .bonus-visual {
-      background: linear-gradient(145deg, #0d4a1a 0%, #1a6b2a 50%, #0d4a1a 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
-      position: relative;
-      overflow: hidden;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75rem;
+  background: var(--cream-dark);
+}
 
-    /* Subtle shimmer on the green side */
-    .bonus-visual::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 30% 30%, rgba(201,152,46,0.08) 0%, transparent 60%);
-      pointer-events: none;
-    }
-
-    .bonus-visual img {
-      width: 100%;
-      max-width: 240px;
-      border-radius: 0.5rem;
-      position: relative;
-      z-index: 1;
-      box-shadow: 0 12px 35px rgba(0,0,0,0.3);
-    }
+.bonus-visual img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 0.75rem;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+}
 
     .bonus-content {
       padding: 1.75rem 2rem;
